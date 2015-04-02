@@ -1,0 +1,239 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffff9049">
+        <!-- Row 1 with single column -->
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="1.which of following is a tool for bruteforcing"  android:layout_span="4"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer1A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="hydra" />
+                <RadioButton
+                    android:id="@+id/answer1B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="metasploit" />
+                <RadioButton
+                    android:id="@+id/answer1C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="wireshark" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="2.which of following is tool for network sniffing "  android:layout_span="4"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer2A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="reaver" />
+                <RadioButton
+                    android:id="@+id/answer2B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="hydra" />
+                <RadioButton
+                    android:id="@+id/answer2C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="wireshark" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="3.which of following is not a password cracking technique"  android:layout_span="4"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer3A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="dictionary attack" />
+                <RadioButton
+                    android:id="@+id/answer3B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="phishing" />
+                <RadioButton
+                    android:id="@+id/answer3C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="rainbow table" />
+            </RadioGroup>
+        </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="4.which is not a hacker ?"  android:layout_span="4"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer4A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="whitehat" />
+                <RadioButton
+                    android:id="@+id/answer4B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="brownhat" />
+                <RadioButton
+                    android:id="@+id/answer4C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="blackhat" />
+            </RadioGroup>
+        </TableRow>
+
+
+
+
+
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Submit"
+                />
+        </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+    </TableLayout>
+</ScrollView>

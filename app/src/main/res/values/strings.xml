@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EngineeringEdu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_coding">coding</string>
+    <string name="title_activity_hacking">hacking</string>
+    <string name="title_activity_photoshop">photoshop</string>
+    <string name="title_activity_robotics">robotics</string>
+    <string name="title_activity_aboutcoding">aboutcoding</string>
+    <string name="title_activity_abouthacking">abouthacking</string>
+    <string name="title_activity_aboutphotoshop">aboutphotoshop</string>
+    <string name="title_activity_aboutrobotics">aboutrobotics</string>
+    <string name="title_activity_videotutscoding">videotutscoding</string>
+    <string name="title_activity_referencescoding">referencescoding</string>
+    <string name="title_activity_referenceshacking">referenceshacking</string>
+    <string name="title_activity_referencesphotoshop">referencesphotoshop</string>
+    <string name="title_activity_referencesrobotics">referencesrobotics</string>
+    <string name="title_activity_videotutshacking">videotutshacking</string>
+    <string name="title_activity_videotutsrobotics">videotutsrobotics</string>
+    <string name="title_activity_videotutsphotoshop">videotutsphotoshop</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="title_activity_quiz">quiz</string>
+    <string name="title_activity_quiz2">quiz2</string>
+    <string name="title_activity_quizhacking">quizhacking</string>
+    <string name="title_activity_quizphotoshop">quizphotoshop</string>
+    <string name="title_activity_quizrobotics">quizrobotics</string>
+
+</resources>

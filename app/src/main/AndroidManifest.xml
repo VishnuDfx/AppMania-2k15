@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE manifest [<!ELEMENT manifest (uses-permission|application)*><!ATTLIST manifestxmlns:android CDATA #REQUIREDpackage CDATA #REQUIRED><!ELEMENT uses-permission (#PCDATA)><!ATTLIST uses-permissionandroid:name CDATA #REQUIRED><!ELEMENT application (activity)*><!ATTLIST applicationandroid:allowBackup CDATA #REQUIREDandroid:icon CDATA #REQUIREDandroid:label CDATA #REQUIREDandroid:theme CDATA #REQUIRED><!ELEMENT activity (intent-filter)*><!ATTLIST activityandroid:label CDATA #REQUIREDandroid:name CDATA #REQUIREDandroid:screenOrientation CDATA #IMPLIED><!ELEMENT intent-filter (action|category)*><!ELEMENT action (#PCDATA)><!ATTLIST actionandroid:name CDATA #REQUIRED><!ELEMENT category (#PCDATA)><!ATTLIST categoryandroid:name CDATA #REQUIRED>]>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="engineeringedu.dfx.com.engineeringedu" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dfx"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".coding"
+            android:label="@string/title_activity_coding"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".hacking"
+            android:label="@string/title_activity_hacking"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".photoshop"
+            android:label="@string/title_activity_photoshop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".robotics"
+            android:label="@string/title_activity_robotics"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".aboutcoding"
+            android:label="@string/title_activity_aboutcoding"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".abouthacking"
+            android:label="@string/title_activity_abouthacking"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".aboutphotoshop"
+            android:label="@string/title_activity_aboutphotoshop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".aboutrobotics"
+            android:label="@string/title_activity_aboutrobotics"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".splash"
+            android:label="Dfx"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".quiz"
+            android:label="@string/title_activity_quiz"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".quiz2"
+            android:label="@string/title_activity_quiz2" >
+        </activity>
+        <activity
+            android:name=".quizhacking"
+            android:label="@string/title_activity_quizhacking" >
+        </activity>
+        <activity
+            android:name=".quizphotoshop"
+            android:label="@string/title_activity_quizphotoshop" >
+        </activity>
+        <activity
+            android:name=".quizrobotics"
+            android:label="@string/title_activity_quizrobotics" >
+        </activity>
+    </application>
+
+</manifest>
